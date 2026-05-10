@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -8,6 +9,9 @@ interface Props {
 const { t } = Astro.props;
 ---
 <section class="section contact" id="contact">
+  <div class="contact-banner" style={`background-image: url(${images.contactDesert});`} aria-hidden="true">
+    <div class="contact-banner-overlay"></div>
+  </div>
   <div class="container">
     <div class="section-header center">
       <span class="section-eyebrow">{t.contact.eyebrow}</span>

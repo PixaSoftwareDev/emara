@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -8,6 +9,11 @@ interface Props {
 const { t } = Astro.props;
 ---
 <footer class="footer">
+  <div class="footer-bridge" aria-hidden="true">
+    <span class="footer-bridge-rule"></span>
+    <img src={images.footerFlags} alt="" class="footer-bridge-image" />
+    <span class="footer-bridge-rule"></span>
+  </div>
   <div class="container footer-container">
     <div class="footer-brand">
       <img src="/Logo.png" alt="Emara Logo" class="footer-logo" />

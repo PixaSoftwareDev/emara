@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -19,12 +20,14 @@ const { t } = Astro.props;
         {t.about.paragraphs.map((p) => <p>{p}</p>)}
       </div>
 
-      <aside class="about-card">
-        <div class="about-card-quote">"</div>
-        <p class="about-card-text">{t.about.quote}</p>
-        <div class="about-card-author">
-          <strong>{t.about.author}</strong>
-          <span>{t.about.role}</span>
+      <aside class="about-card" style={`background-image: url(${images.aboutJumping});`}>
+        <div class="about-card-overlay" aria-hidden="true"></div>
+        <div class="about-card-body">
+          <div class="about-card-quote">"</div>
+          <p class="about-card-text">{t.about.quote}</p>
+          <div class="about-card-author">
+            <strong>{t.about.author}</strong>
+          </div>
         </div>
       </aside>
     </div>

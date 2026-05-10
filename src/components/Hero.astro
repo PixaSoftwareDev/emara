@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -14,27 +15,39 @@ const { t } = Astro.props;
     <span class="aurora-blob aurora-blob-3"></span>
   </div>
   <div class="container hero-container">
-    <div class="hero-media" data-parallax="0.14">
-      <div class="hero-media-frame">
-        <span class="hero-media-corner hero-media-corner--tl" aria-hidden="true"></span>
-        <span class="hero-media-corner hero-media-corner--br" aria-hidden="true"></span>
-        <img src="/Logo.png" alt="Emara by Khordad Enterprises" class="hero-logo" />
-      </div>
-    </div>
     <div class="hero-content">
-      <span class="hero-eyebrow" data-parallax="0.04">
+      <div class="hero-eyebrow" data-parallax="0.04">
         <span class="hero-eyebrow-rule" aria-hidden="true"></span>
-        Emara <span class="hero-eyebrow-dot" aria-hidden="true">·</span> Khordad Enterprises
-      </span>
+        <span>Emara · Khordad Enterprises</span>
+      </div>
       <h1 class="hero-title" data-parallax="0.07">
         <span>{t.hero.titleStart}</span>
         <span class="accent">{t.hero.titleAccent}</span>
       </h1>
       <p class="hero-subtitle" data-parallax="0.04">{t.hero.subtitle}</p>
       <div class="hero-cta">
-        <a href="#services" class="btn btn-primary">{t.hero.ctaPrimary}</a>
+        <a href="#services" class="btn btn-primary">
+          {t.hero.ctaPrimary}
+          <span class="btn-arrow" aria-hidden="true">→</span>
+        </a>
         <a href="#contact" class="btn btn-ghost">{t.hero.ctaSecondary}</a>
       </div>
+    </div>
+
+    <div class="hero-media" data-parallax="0.1">
+      <figure class="hero-figure">
+        <img
+          src={images.heroRider}
+          alt="Equestrian rider — Emara"
+          class="hero-image"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-figure-tag" aria-hidden="true">
+          <span class="hero-figure-tag-label">In Motion</span>
+          <span class="hero-figure-tag-meta">Equestrian Excellence</span>
+        </div>
+      </figure>
     </div>
   </div>
   <div class="hero-scroll">

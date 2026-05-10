@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -14,13 +15,22 @@ const { t } = Astro.props;
       <h2 class="section-title">{t.why.title}</h2>
     </div>
 
-    <ul class="why-list">
-      {t.why.items.map((item) => (
-        <li>
-          <span class="why-check">✓</span>
-          <span>{item}</span>
-        </li>
-      ))}
-    </ul>
+    <div class="why-grid">
+      <figure class="why-media">
+        <img src={images.whyPoloFoot} alt="Polo close-up — equestrian craftsmanship" loading="lazy" />
+        <figcaption class="why-media-caption" aria-hidden="true">
+          <span class="why-media-rule"></span>
+          Craftsmanship in motion
+        </figcaption>
+      </figure>
+      <ul class="why-list">
+        {t.why.items.map((item) => (
+          <li>
+            <span class="why-check">✓</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
   </div>
 </section>

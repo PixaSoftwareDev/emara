@@ -1,5 +1,6 @@
 ---
 import type { Translations } from '~/i18n/ui';
+import { images } from '~/assets/images';
 
 interface Props {
   t: Translations;
@@ -7,7 +8,8 @@ interface Props {
 
 const { t } = Astro.props;
 ---
-<section class="section mission" id="mission">
+<section class="section mission" id="mission" style={`--mission-image: url(${images.missionPolo});`}>
+  <div class="mission-bg" aria-hidden="true"></div>
   <div class="container">
     <div class="mission-wrap">
       <span class="section-eyebrow light">{t.mission.eyebrow}</span>
