@@ -1,0 +1,26 @@
+---
+import type { Translations } from '~/i18n/ui';
+
+interface Props {
+  t: Translations;
+}
+
+const { t } = Astro.props;
+---
+<section class="section why" id="why">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">{t.why.eyebrow}</span>
+      <h2 class="section-title">{t.why.title}</h2>
+    </div>
+
+    <ul class="why-list">
+      {t.why.items.map((item) => (
+        <li>
+          <span class="why-check">✓</span>
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+---
+import type { Translations } from '~/i18n/ui';
+
+interface Props {
+  t: Translations;
+}
+
+const { t } = Astro.props;
+---
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">{t.about.eyebrow}</span>
+      <h2 class="section-title">{t.about.title}</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        {t.about.paragraphs.map((p) => <p>{p}</p>)}
+      </div>
+
+      <aside class="about-card">
+        <div class="about-card-quote">"</div>
+        <p class="about-card-text">{t.about.quote}</p>
+        <div class="about-card-author">
+          <strong>{t.about.author}</strong>
+          <span>{t.about.role}</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>

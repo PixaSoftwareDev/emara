@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Emara by Khordad Enterprises — We connect business",
+    "description": "Emara by Khordad Enterprises — We connect business. Equestrian product development, saddle tree technology, manufacturing partnerships and IT solutions.",
+    "keywords": "Emara, Khordad Enterprises, equestrian, saddle, manufacturing, e-commerce, IT solutions"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "mission": "Mission",
+    "why": "Why Emara",
+    "contact": "Contact",
+    "menu": "Toggle menu"
+  },
+  "hero": {
+    "titleStart": "We connect",
+    "titleAccent": "business.",
+    "subtitle": "Bridging renowned equestrian brands with world-class manufacturing through innovation, technical know-how and reliable production partnerships.",
+    "ctaPrimary": "Discover our services",
+    "ctaSecondary": "Get in touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "A story rooted in craftsmanship and equestrian passion.",
+    "paragraphs": [
+      "Emara by Khordad Enterprises is led by Bibin Thomas, whose connection to the equestrian world began in early childhood through his family's long-standing involvement in the industry.",
+      "Born in Delhi, Bibin moved with his family to Abu Dhabi at the age of 14. Driven by his passion for craftsmanship and equestrian sports, he later completed his saddlery training in England, where he gained valuable technical expertise and hands-on experience in traditional and modern saddle making.",
+      "After returning to the Middle East, Bibin dedicated himself to building strong international partnerships within the equestrian industry. Together with his experienced team, he has been actively involved in the global equestrian business for many years, working closely with renowned brands, manufacturers and industry professionals.",
+      "Today, Emara combines deep equestrian knowledge, technical innovation, international sourcing expertise and modern business solutions to support partners around the world. Our philosophy is built on trust, quality, long-term relationships and a passion for connecting businesses across international markets."
+    ],
+    "quote": "At Emara, we believe successful business is built on strong connections, trust and expertise.",
+    "author": "Bibin Thomas",
+    "role": "Founder · Emara by Khordad Enterprises"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "Comprehensive solutions for the equestrian industry & beyond.",
+    "items": [
+      { "title": "Product Development", "body": "From concept to final production, we support equestrian brands in developing innovative and functional riding products that meet the highest market standards." },
+      { "title": "Saddle Tree Technology", "body": "Advanced saddle tree solutions and technical expertise for brands seeking performance, comfort, durability and precision in saddle development." },
+      { "title": "Manufacturing Partnerships", "body": "We connect established equestrian brands with carefully selected factories and production partners, ensuring smooth communication, transparency and reliable results." },
+      { "title": "Quality Management", "body": "Quality is at the core of everything we do. Emara actively participates in production and quality control processes to ensure that every product reflects the standards and expectations of our partners." },
+      { "title": "E-Commerce Development", "body": "We develop customized e-commerce solutions for production and trading companies — efficient digital systems that simplify operations, improve communication and optimize purchasing and order management." },
+      { "title": "IT Process Solutions", "body": "Individual IT solutions tailored to manufacturing and commercial businesses. From online procurement portals to streamlined ordering workflows, our systems help companies increase efficiency, transparency and operational performance." },
+      { "title": "Online Portal Development", "body": "Professional online platforms for purchasing, ordering and supplier communication. Designed to optimize procurement processes and create seamless connections between businesses and production partners." },
+      { "title": "Industry Know-How", "body": "With extensive experience in the equestrian market and industrial business processes, we provide valuable insight, technical support and strategic guidance throughout the entire development and manufacturing journey." }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "text": "We believe successful business is built on strong connections, trust and expertise. By bringing together brands, technology, manufacturing excellence and digital innovation, we help our partners grow sustainably and competitively in global markets."
+  },
+  "why": {
+    "eyebrow": "Why Emara",
+    "title": "Eight reasons partners choose us.",
+    "items": [
+      "Strong network within the equestrian industry",
+      "Expertise in saddle and riding equipment development",
+      "Innovative saddle tree technology",
+      "Reliable manufacturing connections",
+      "Active quality management and production support",
+      "Customized e-commerce and IT solutions",
+      "Online portal and procurement system development",
+      "Long-term partnership approach"
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build something together.",
+    "lead": "Whether you are looking for a reliable manufacturing partner, innovative equestrian product development, saddle tree technology or customized business and e-commerce solutions — our team is here to support you with experience, dedication and professionalism.",
+    "emailLabel": "Email us",
+    "whatsappLabel": "WhatsApp",
+    "signoff": "We look forward to hearing from you. — Bibin Thomas"
+  },
+  "footer": {
+    "tagline": "We connect business.",
+    "rights": "All rights reserved."
+  }
+}

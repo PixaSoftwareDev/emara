@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Emara by Khordad Enterprises — Conectamos negocios",
+    "description": "Emara by Khordad Enterprises — Conectamos negocios. Desarrollo de productos ecuestres, tecnología de saddle tree, partnerships de manufactura y soluciones IT.",
+    "keywords": "Emara, Khordad Enterprises, ecuestre, montura, manufactura, e-commerce, soluciones IT"
+  },
+  "nav": {
+    "about": "Nosotros",
+    "services": "Servicios",
+    "mission": "Misión",
+    "why": "Por qué Emara",
+    "contact": "Contacto",
+    "menu": "Abrir menú"
+  },
+  "hero": {
+    "titleStart": "Conectamos",
+    "titleAccent": "negocios.",
+    "subtitle": "Conectamos marcas ecuestres reconocidas con manufactura de clase mundial a través de innovación, expertise técnico y partnerships de producción confiables.",
+    "ctaPrimary": "Descubrí nuestros servicios",
+    "ctaSecondary": "Contactanos",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Una historia con raíces en la artesanía y la pasión ecuestre.",
+    "paragraphs": [
+      "Emara by Khordad Enterprises está liderada por Bibin Thomas, cuyo vínculo con el mundo ecuestre comenzó en su infancia a través de la trayectoria familiar en la industria.",
+      "Nacido en Delhi, Bibin se mudó con su familia a Abu Dhabi a los 14 años. Impulsado por su pasión por la artesanía y los deportes ecuestres, completó su formación en talabartería en Inglaterra, donde adquirió expertise técnico y experiencia práctica en la fabricación tradicional y moderna de monturas.",
+      "De regreso en Medio Oriente, Bibin se dedicó a construir partnerships internacionales sólidos dentro de la industria ecuestre. Junto a su equipo experimentado, lleva años activo en el negocio ecuestre global, trabajando con marcas reconocidas, fabricantes y profesionales del sector.",
+      "Hoy, Emara combina profundo conocimiento ecuestre, innovación técnica, expertise en sourcing internacional y soluciones de negocio modernas para apoyar a partners en todo el mundo. Nuestra filosofía se construye sobre la confianza, la calidad, las relaciones a largo plazo y la pasión por conectar negocios en mercados internacionales."
+    ],
+    "quote": "En Emara creemos que un negocio exitoso se construye sobre conexiones sólidas, confianza y expertise.",
+    "author": "Bibin Thomas",
+    "role": "Fundador · Emara by Khordad Enterprises"
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Soluciones integrales para la industria ecuestre y más allá.",
+    "items": [
+      { "title": "Desarrollo de Producto", "body": "Desde el concepto hasta la producción final, acompañamos a marcas ecuestres en el desarrollo de productos innovadores y funcionales que cumplen los más altos estándares del mercado." },
+      { "title": "Tecnología de Saddle Tree", "body": "Soluciones avanzadas de árboles de montura y expertise técnico para marcas que buscan performance, confort, durabilidad y precisión en el desarrollo de monturas." },
+      { "title": "Partnerships de Manufactura", "body": "Conectamos marcas ecuestres consolidadas con fábricas y partners de producción cuidadosamente seleccionados, asegurando comunicación fluida, transparencia y resultados confiables." },
+      { "title": "Gestión de Calidad", "body": "La calidad está en el núcleo de todo lo que hacemos. Emara participa activamente en la producción y los procesos de control de calidad para garantizar que cada producto refleje los estándares y expectativas de nuestros partners." },
+      { "title": "Desarrollo E-Commerce", "body": "Desarrollamos soluciones de e-commerce a medida para empresas productivas y comerciales — sistemas digitales eficientes que simplifican operaciones, mejoran la comunicación y optimizan compras y gestión de pedidos." },
+      { "title": "Soluciones de Procesos IT", "body": "Soluciones IT a medida para negocios de manufactura y comerciales. Desde portales de compra online hasta flujos de pedido optimizados, nuestros sistemas ayudan a las empresas a aumentar eficiencia, transparencia y performance operacional." },
+      { "title": "Desarrollo de Portales Online", "body": "Plataformas profesionales online para compras, pedidos y comunicación con proveedores. Diseñadas para optimizar procesos de procurement y crear conexiones seamless entre empresas y partners de producción." },
+      { "title": "Know-How de la Industria", "body": "Con amplia experiencia en el mercado ecuestre y los procesos industriales, brindamos insights valiosos, soporte técnico y guía estratégica durante todo el proceso de desarrollo y manufactura." }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Nuestra misión",
+    "text": "Creemos que un negocio exitoso se construye sobre conexiones sólidas, confianza y expertise. Reuniendo marcas, tecnología, excelencia en manufactura e innovación digital, ayudamos a nuestros partners a crecer de forma sostenible y competitiva en los mercados globales."
+  },
+  "why": {
+    "eyebrow": "Por qué Emara",
+    "title": "Ocho razones por las que nuestros partners nos eligen.",
+    "items": [
+      "Red sólida dentro de la industria ecuestre",
+      "Expertise en desarrollo de monturas y equipamiento de equitación",
+      "Tecnología innovadora de saddle tree",
+      "Conexiones confiables de manufactura",
+      "Gestión de calidad activa y soporte a la producción",
+      "Soluciones de e-commerce e IT a medida",
+      "Desarrollo de portales online y sistemas de procurement",
+      "Enfoque de partnership a largo plazo"
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Construyamos algo juntos.",
+    "lead": "Ya sea que busques un partner de manufactura confiable, desarrollo innovador de productos ecuestres, tecnología de saddle tree o soluciones de negocio y e-commerce a medida — nuestro equipo está acá para acompañarte con experiencia, dedicación y profesionalismo.",
+    "emailLabel": "Escribinos",
+    "whatsappLabel": "WhatsApp",
+    "signoff": "Esperamos saber de vos. — Bibin Thomas"
+  },
+  "footer": {
+    "tagline": "Conectamos negocios.",
+    "rights": "Todos los derechos reservados."
+  }
+}

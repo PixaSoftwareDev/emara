@@ -1,0 +1,17 @@
+---
+import type { Translations } from '~/i18n/ui';
+
+interface Props {
+  t: Translations;
+}
+
+const { t } = Astro.props;
+---
+<section class="section mission" id="mission">
+  <div class="container">
+    <div class="mission-wrap">
+      <span class="section-eyebrow light">{t.mission.eyebrow}</span>
+      <h2 class="mission-text">{t.mission.text}</h2>
+    </div>
+  </div>
+</section>

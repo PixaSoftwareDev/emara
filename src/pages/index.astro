@@ -1,0 +1,23 @@
+---
+// Static landing — redirects to /en or /es based on browser language.
+// Falls back to /en via meta refresh if JS is disabled.
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emara by Khordad Enterprises</title>
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content="0; url=/en" />
+    <link rel="canonical" href="https://emara-equestrian.com/en" />
+    <script>
+      (() => {
+        const lang = (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+        location.replace('/' + lang);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting… <a href="/en">English</a> · <a href="/es">Español</a></p>
+  </body>
+</html>

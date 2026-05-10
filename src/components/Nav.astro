@@ -1,0 +1,45 @@
+---
+import type { Lang, Translations } from '~/i18n/ui';
+
+interface Props {
+  lang: Lang;
+  t: Translations;
+}
+
+const { lang, t } = Astro.props;
+const home = `/${lang}`;
+const otherHref = lang === 'en' ? '/es' : '/en';
+---
+<header class="nav-header" id="navHeader">
+  <div class="container nav-container">
+    <a href={`${home}#hero`} class="nav-brand">
+      <img src="/Logo.png" alt="Emara Logo" class="nav-logo" />
+      <span class="nav-brand-text">EMARA</span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#about" class="nav-link" style="--i:0">{t.nav.about}</a>
+      <a href="#services" class="nav-link" style="--i:1">{t.nav.services}</a>
+      <a href="#mission" class="nav-link" style="--i:2">{t.nav.mission}</a>
+      <a href="#why" class="nav-link" style="--i:3">{t.nav.why}</a>
+      <a href="#contact" class="nav-link" style="--i:4">{t.nav.contact}</a>
+      <a class="lang-switch lang-switch--mobile" href={otherHref} aria-label="Switch language" style="--i:5">
+        <span class:list={["lang-option", { active: lang === 'en' }]}>EN</span>
+        <span class="lang-divider">/</span>
+        <span class:list={["lang-option", { active: lang === 'es' }]}>ES</span>
+      </a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="lang-switch lang-switch--desktop" href={otherHref} aria-label="Switch language">
+        <span class:list={["lang-option", { active: lang === 'en' }]}>EN</span>
+        <span class="lang-divider">/</span>
+        <span class:list={["lang-option", { active: lang === 'es' }]}>ES</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label={t.nav.menu} aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
